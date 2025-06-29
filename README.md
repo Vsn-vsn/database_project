@@ -1,7 +1,7 @@
-# Tkinter E-Commerce Dashboard (with Supabase)
+## Tkinter E-Commerce Dashboard (with Supabase)
 
 A feature-rich desktop application for managing an e-commerce platform using **Python Tkinter** for the GUI and **Supabase** as the backend database.
-The application supports user authentication, product catalog browsing, shopping cart, interest tracking, order placement, and order cancellation — all in a sleek, scrollable GUI.
+Supports user authentication, product catalog browsing, shopping cart, interest tracking, order placement, and order cancellation — all in a sleek, scrollable GUI.
 ---
 
 ## Features
@@ -38,14 +38,6 @@ The application supports user authentication, product catalog browsing, shopping
 ---
 
 ## Database Schema
-The app uses the following Supabase PostgreSQL tables:
-
-- `Users`, `Carts`, `Cart_Items`
-- `Products`, `Categories`
-- `Orders`, `Order_Items`
-- `Product_Interests`, `Category_Interests`
-- `Sales_Log`
-
 Refer to `tables.sql` for full DDL statements.
 ---
 
