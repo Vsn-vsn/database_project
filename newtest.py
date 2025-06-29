@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from supabase import create_client, Client
 
-# Supabase credentials
+#Supabase credentials
 #SUPABASE_URL = write the project url
 #SUPABASE_KEY = #write the api key from supabase
 #supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
