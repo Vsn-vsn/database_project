@@ -9,7 +9,7 @@ Supports user authentication, product catalog browsing, shopping cart, interest 
 ### User Management
 - Register, Login, Logout
 - Email-based user identification
-- Stores credentials securely (supports hashed passwords)
+- Stores credentials 
 
 ### Shopping Cart
 - Add products to cart with quantity
