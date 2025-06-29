@@ -2,7 +2,7 @@
 
 A feature-rich desktop application for managing an e-commerce platform using **Python Tkinter** for the GUI and **Supabase** as the backend database.
 Supports user authentication, product catalog browsing, shopping cart, interest tracking, order placement, and order cancellation — all in a sleek, scrollable GUI.
----
+
 
 ## Features
 
@@ -35,14 +35,14 @@ Supports user authentication, product catalog browsing, shopping cart, interest 
 ### UI
 - Built using `ttkbootstrap` for a dark modern look
 - Scrollable interface using `Canvas` and `Scrollbar`
----
+
 
 ## Database Schema
 Refer to `tables.sql` for full DDL statements.
----
+
 
 ## Supabase RPC Requirements (PL/pgSQL)
-This project relies on PostgreSQL stored procedures written in **PL/pgSQL**, called via Supabase RPC.
+This project relies on PostgreSQL stored procedures written in PL/pgSQL, called via Supabase RPC.
 These are deployed to the Supabase database and callable securely from the Python client.
 Refer to `PlSql.sql` to see all the procedure and triggers used.
----
+
